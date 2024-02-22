@@ -1,0 +1,14 @@
+{
+    "name":"mades/summer-craft-framework",
+    "description":"The -=Summer Craft=- Framework",
+    "type":"library",
+    "license":"MIT",
+    "require": {
+        "php": ">=8.1",
+        "ext-curl": "*",
+        "ext-pdo": "*"
+    },
+    "autoload":{
+        "classmap": ["src/"]
+    }
+}
